@@ -1,7 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
+import router from './routers'
 import store from './store'
+import TabBar from './components/TabBar';  
+  
+Vue.component('TabBar', TabBar);
 
 Vue.config.productionTip = false
 
